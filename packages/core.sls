@@ -1,5 +1,5 @@
 # core-packages
-packages_git:
+packages_core:
   - bash-completion
   - debconf-utils
   - dstat
