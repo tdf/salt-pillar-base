@@ -11,7 +11,7 @@ packages_core:
   - mc
   - mlocate
   - pwgen
-  - sipcal
+  - sipcalc
   - smartmontools
   - unzip
   - zip
