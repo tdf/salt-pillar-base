@@ -5,4 +5,5 @@ include:
   - packages.lxc
   - packages.net
   - packages.pacemaker
+  - packages.ssh
   - packages.zsh
