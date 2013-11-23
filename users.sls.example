@@ -1,0 +1,24 @@
+# Userdaten
+#
+# Erzeugen des Passwortes: mkpasswd --method=sha-512 --salt=$(pwgen 8 1)
+#
+{# Template:
+
+  USER:
+    uid: UID
+    fullname: NAME
+    email: MAIL
+    password: PW
+    shell: /bin/bash
+    groups:
+      - wheel
+      - kvm
+      - libvirt
+      - sudo
+    ssh_auth:
+        - key: KEY
+          type: ssh-rsa
+          comment:  CMD
+
+#}
+
