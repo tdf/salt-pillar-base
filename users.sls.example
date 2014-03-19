@@ -3,7 +3,7 @@
 # Erzeugen des Passwortes: mkpasswd --method=sha-512 --salt=$(pwgen 8 1)
 #
 {# Template:
-
+users:
   USER:
     uid: UID
     fullname: NAME
